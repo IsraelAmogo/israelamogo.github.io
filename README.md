@@ -28,3 +28,19 @@
 **Project Description:**
 
 **Technology used:** SQL server
+
+# Project 3 
+
+**Title:** [HR Insights Dashboard](https://github.com/IsraelAmogo/israelamogo.github.io/blob/main/ecommerce_customer_behavior_dashboard.xlsx)
+
+**Tools Used:** Power BI
+
+**Project Description:** 
+
+**Key findings:**
+
+**Dashboard Overview:**
+
+![HR_Insight](HR_Insight.png)
+
+
