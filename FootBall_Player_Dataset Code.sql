@@ -168,18 +168,6 @@ FROM [dbo].['Football Players Data$']
 GROUP BY [Exp],[Team]
 ORDER BY [Team]
 
---8	Write a query to find the tallest and shortest players from each college.
---***CHECK THIS AGAIN
-
-SELECT [College], 
-		MAX([Ht]) AS TallestHeight,
-		MIN([Ht]) AS ShortestHeight
-	FROM [dbo].['Football Players Data$']
-	GROUP BY [College]
-	ORDER BY MAX([Ht]) DESC, MIN([Ht]) DESC;
-
-	
-
 
 --9	Write a query to find all players whose weight is above the average weight for their respective position.
 
@@ -205,3 +193,4 @@ SELECT [Pos],
 	WHERE [Pos] IS NOT NULL
 	GROUP BY [Pos]
 	ORDER BY Percentage
+
