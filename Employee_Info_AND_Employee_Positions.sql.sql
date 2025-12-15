@@ -11,7 +11,7 @@ AS EmpName
 FROM [dbo].['Employee Info$'] 
 WHERE [EmpID] IS NOT NULL;
 
---2	Write a query to fetch the number of employees working in the department ëHRí.
+--2	Write a query to fetch the number of employees working in the department ‚ÄòHR‚Äô.
 
 SELECT COUNT([EmpID])
 FROM [dbo].['Employee Info$']
@@ -25,7 +25,7 @@ SELECT GETDATE()
 AS [CURRENT DATE]
 
 
---4	Write a query to retrieve the first four characters of† EmpLname from the EmployeeInfo table.
+--4	Write a query to retrieve the first four characters of¬† EmpLname from the EmployeeInfo table.
 
 
 SELECT [EmpLname],
@@ -60,7 +60,7 @@ WHERE [Salary] BETWEEN 50000 AND 100000
 
 
 
---8	Write a query to find the names of employees that begin with ëSí
+--8	Write a query to find the names of employees that begin with ‚ÄòS‚Äô
 
 
 SELECT *
@@ -75,7 +75,7 @@ ORDER BY [Salary] DESC;
 
 
 
---10	Write a query to retrieve the EmpFname and EmpLname in a single column as ìFullNameî. The first name and the last name must be separated with space.
+--10	Write a query to retrieve the EmpFname and EmpLname in a single column as ‚ÄúFullName‚Äù. The first name and the last name must be separated with space.
 
 SELECT [EmpFname],[EmpLname], CONCAT([EmpFname],' ',[EmpLname])
 AS FullName
@@ -99,7 +99,7 @@ ORDER BY [EmpLname] DESC,
 [Department] ASC;
 
 
---13	Write a query to fetch details of employees whose EmpLname ends with an alphabet ëAí and contains five alphabets.
+--13	Write a query to fetch details of employees whose EmpLname ends with an alphabet ‚ÄòA‚Äô and contains five alphabets.
 
 SELECT *
 FROM [dbo].['Employee Info$']
@@ -107,7 +107,7 @@ WHERE [EmpLname] LIKE '____a';
 
 
 
---14	Write a query to fetch details of all employees excluding the employees with first names, ìSanjayî and ìSoniaî from the EmployeeInfo table.
+--14	Write a query to fetch details of all employees excluding the employees with first names, ‚ÄúSanjay‚Äù and ‚ÄúSonia‚Äù from the EmployeeInfo table.
 
 
 SELECT *
@@ -116,7 +116,7 @@ WHERE [EmpFname]
 NOT IN ('Sanjay','Sonia')
 
 
---15	Write a query to fetch details of employees with the address as ìDELHI(DEL)î
+--15	Write a query to fetch details of employees with the address as ‚ÄúDELHI(DEL)‚Äù
 
 
 SELECT *
@@ -130,7 +130,7 @@ SELECT *
 FROM [dbo].['Employee position$']
 WHERE [EmpPosition] ='Manager';
 
---17	Write a query to fetch the department-wise count of employees sorted by departmentís count in ascending order
+--17	Write a query to fetch the department-wise count of employees sorted by department‚Äôs count in ascending order
 
 SELECT [Department], COUNT(*) AS DEPTNUM
 FROM [dbo].['Employee Info$']
