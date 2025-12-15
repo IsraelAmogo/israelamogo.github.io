@@ -176,16 +176,16 @@ The solution integrates advanced DAX measures and calculated columns to enhance 
 
 **Home Page – Full Insights**
 
-  ◉  Workforce Composition: Total employees (1,470), gender distribution (60% male, 40% female).
-  ◉  Promotion Eligibility: 72 employees (4.9%) due for promotion.
-  ◉  Attrition & Retrenchment: 117 employees (8%) flagged for retrenchment, 92% active workforce.
-  ◉  Job Levels & Service Years: Pyramid structure across job levels; majority mid-career employees with 5–10 years of service.
-  ◉  Distance from Office: 64% of employees live very far, impacting engagement and retention.
+1.  Workforce Composition: Total employees (1,470), gender distribution (60% male, 40% female).
+2.  Promotion Eligibility: 72 employees (4.9%) due for promotion.
+3.  Attrition & Retrenchment: 117 employees (8%) flagged for retrenchment, 92% active workforce.
+4.  Job Levels & Service Years: Pyramid structure across job levels; majority mid-career employees with 5–10 years of service.
+5.  Distance from Office: 64% of employees live very far, impacting engagement and retention.
 
 **Action Page – Targeted Insights**
 
-  ◉  Performance & Satisfaction: Low performance (15.4%), low job satisfaction (31.2%), stagnant careers (25.4%).
-  ◉  Work-Life Balance: Overtime burden (28.3%) and poor balance (28.8%).
+1.  Performance & Satisfaction: Low performance (15.4%), low job satisfaction (31.2%), stagnant careers (25.4%).
+2.  Work-Life Balance: Overtime burden (28.3%) and poor balance (28.8%).
 
   *Visualisations:*
 
@@ -198,22 +198,20 @@ The solution integrates advanced DAX measures and calculated columns to enhance 
 
 
 **Detail Page – Deep Analysis**
-
-  ◉   Attrition by Department: Highlights turnover in Research, Sales, and HR.
-  ◉   Years at Company vs Job Satisfaction: Line chart showing satisfaction trends over tenure.
-  ◉   Training vs Performance: Correlation between training frequency and performance rating across departments.
-  ◉   Promotions & Performance: Analysis of years since last promotion against performance outcomes.
-  ◉   Income Trends: Monthly income progression over years at the company.
-  ◉   Interactive Filters: Attrition, promotion status, age category, gender, job role, and department.
-  ◉   Advanced Measures & Columns: Custom DAX measures created to calculate averages, percentages, and performance ratios; additional columns added to standardise age categories and promotion status for deeper drill-downs.
+1.  Attrition by Department: Highlights turnover in Research, Sales, and HR.
+2.  Years at Company vs Job Satisfaction: Line chart showing satisfaction trends over tenure.
+3.  Training vs Performance: Correlation between training frequency and performance rating across departments.
+4.  Promotions & Performance: Analysis of years since last promotion against performance outcomes.
+5.  Income Trends: Monthly income progression over years at the company.
+6.  Interactive Filters: Attrition, promotion status, age category, gender, job role, and department.
+7.  Advanced Measures & Columns: Custom DAX measures created to calculate averages, percentages, and performance ratios; additional columns added to standardise age       categories and promotion status for deeper drill-downs.
 
 **Key findings:**
-
-◉   Workforce is stable but faces challenges in job satisfaction, career progression, and work-life balance.
-◉   Attrition risk is concentrated in specific departments, requiring targeted retention strategies.
-◉   Training participation directly influences performance ratings, highlighting the need for stronger learning & development programs.
-◉   Promotion delays correlate with declining performance, suggesting career stagnation impacts engagement.
-◉   Income growth aligns with tenure, but satisfaction trends vary, requiring nuanced HR policies.
+1.  Workforce is stable but faces challenges in job satisfaction, career progression, and work-life balance.
+2.  Attrition risk is concentrated in specific departments, requiring targeted retention strategies.
+3.  Training participation directly influences performance ratings, highlighting the need for stronger learning & development programs.
+4.  Promotion delays correlate with declining performance, suggesting career stagnation impacts engagement.
+5.  Income growth aligns with tenure, but satisfaction trends vary, requiring nuanced HR policies.
 
 **Dashboard Overview:**
 ![HR_Insight](HR_Insight.png)
