@@ -58,8 +58,55 @@ The dbo.Employee_Details table is an excel file and was imported to SQL server. 
 4. DateOfJoining (datetime) – Records the employee’s start date, useful for tenure analysis and workforce planning.
 5. City (nvarchar(255)) – Captures the employee’s work location, enabling regional workforce distribution analysis.
 
+**Technology used:** SQL server & Microsoft Excel
 
-**Technology used:** SQL server
+# Project 3
+
+**Title:** Employee Information Database Analysis: Data Manipulation and Interogation
+
+**SQL Code:** [Employee_Info_AND_Employee_Positions Tables](https://github.com/IsraelAmogo/israelamogo.github.io/blob/main/Employee_Info_AND_Employee_Positions.sql.sql)
+
+**SQL Skills Used:**
+
+1. Data Retrieval (SELECT) – Queried and extracted specific employee details such as names, addresses, and positions.
+2. Data Aggregation (COUNT, GROUP BY) – Calculated department-wise employee counts, gender-based distributions, and salary ranges.
+3. Data Filtering (WHERE, BETWEEN, IN, LIKE) – Applied filters to retrieve employees by department, salary range, joining date, and name patterns.
+4. String Functions (UPPER, LEFT, CONCAT, CHARINDEX) – Manipulated text fields to format names, extract substrings, and combine columns.
+5. Joins (INNER JOIN) – Linked employee details with position data to provide comprehensive workforce insights.
+6. Sorting (ORDER BY, TOP) – Retrieved top salaries, ordered records by department and last name, and highlighted minimum/maximum values.
+7. Table Creation & Duplication (SELECT INTO) – Created duplicate tables for testing and backup purposes.
+8. Data Cleaning (DELETE WHERE IS NULL) – Removed incomplete records to maintain data integrity.
+
+**Project Description:**
+
+This project involved querying, manipulating and analysing the Employee_Info and Employee_Position table in SQL Server to manage and query organisational workforce data. The database was imported from Excel and structured to store essential employee attributes, enabling efficient reporting, workforce planning, and HR analytics.
+
+The project focused on writing frequently asked SQL interview queries to demonstrate practical skills in data retrieval, filtering, aggregation, and transformation. Queries were designed to answer real-world HR and business questions, such as:
+
+1. Identifying employees in specific departments (e.g., HR).
+2. Analysing salary ranges and retrieving top earners.
+3. Extracting substrings from employee names and addresses.
+4. Generating department-wise employee counts.
+5. Joining employee details with position data for richer insights.
+6. Cleaning null values to ensure dataset quality.
+
+**Table Schema**
+The Employee_Info table was imported from Excel into SQL Server and includes:
+
+1. EmpId (float) – Unique identifier for each employee.
+2. FullName (nvarchar(255)) – Employee’s full name.
+3. ManagerId (float) – Identifier linking employees to their respective managers.
+4. DateOfJoining (datetime) – Records the employee’s start date.
+5. City (nvarchar(255)) – Captures the employee’s work location.
+
+Additional supporting tables such as Employee Position$ was used to store salary and role-related information.
+
+**Technology used:** 
+
+1. SQL Server Management Studio (SSMS)
+2. SQL Server Database Engine
+3. Excel (as source data)
+
 
 # Project 3 
 
