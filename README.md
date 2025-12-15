@@ -64,7 +64,7 @@ The dbo.Employee_Details table is an excel file and was imported to SQL server. 
 
 **Title:** Employee Information Database Analysis: Data Manipulation and Interogation
 
-**SQL Code:** [Employee_Info_AND_Employee_Positions Tables](https://github.com/IsraelAmogo/israelamogo.github.io/blob/main/Employee_Info_AND_Employee_Positions.sql.sql)
+**SQL Code:** [FootBall_Player_Dataset Code](https://github.com/IsraelAmogo/israelamogo.github.io/blob/main/FootBall_Player_Dataset%20Code.sql)
 
 **SQL Skills Used:**
 
