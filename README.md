@@ -111,7 +111,7 @@ Additional supporting tables such as Employee Position$ was used to store salary
 
 **Title:** Football Players Dataset Analysis: Data Manipulation and Interogation
 
-**SQL Code:** [Employee_Info_AND_Employee_Positions Tables](https://github.com/IsraelAmogo/israelamogo.github.io/blob/main/Employee_Info_AND_Employee_Positions.sql.sql)
+**SQL Code:** [Employee_Info_AND_Employee_Positions Code](https://github.com/IsraelAmogo/israelamogo.github.io/blob/main/Employee_Info_AND_Employee_Positions.sql.sql)
 
 **SQL Skills Used:**
 
