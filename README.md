@@ -48,6 +48,17 @@ This dashboard serves as a strategic decision-making tool for the management tea
 
 **Project Description:**
 
+This project involved designing and analysing the Employee_Details database table in SQL Server to manage and query organisational workforce information. The table was created to store essential employee attributes, enabling efficient data retrieval, reporting, and integration with other HR systems.
+
+**Table Schema**
+The dbo.Employee_Details table is an excel file and was imported to SQL server. It includes the following fields:
+1. EmpId (float) – Unique identifier for each employee.
+2. FullName (nvarchar(255)) – Employee’s full name.
+3. ManagerId (float) – Identifier linking employees to their respective managers, supporting hierarchical reporting.
+4. DateOfJoining (datetime) – Records the employee’s start date, useful for tenure analysis and workforce planning.
+5. City (nvarchar(255)) – Captures the employee’s work location, enabling regional workforce distribution analysis.
+
+
 **Technology used:** SQL server
 
 # Project 3 
