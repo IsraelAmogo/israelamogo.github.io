@@ -189,10 +189,10 @@ The solution integrates advanced DAX measures and calculated columns to enhance 
 
   *Visualisations:*
 
-    ‣  Job involvement distribution (pie chart).
-    ‣  Low job satisfaction vs overtime (donut chart).
-    ‣  Performance by age group and job role (bar charts).
-    ‣  Low performance by distance & marital status (comparative chart).
+  ‣ Job involvement distribution (pie chart).
+  ‣ Low job satisfaction vs overtime (donut chart).
+  ‣  Performance by age group and job role (bar charts).
+  ‣  Low performance by distance & marital status (comparative chart).
 
   *Purpose:* Helps HR managers identify problem areas and prioritise interventions.
 
