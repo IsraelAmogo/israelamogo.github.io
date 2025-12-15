@@ -107,6 +107,58 @@ Additional supporting tables such as Employee Position$ was used to store salary
 2. SQL Server Database Engine
 3. Excel (as source data)
 
+# Project 4
+
+**Title:** Football Players Dataset Analysis: Data Manipulation and Interogation
+
+**SQL Code:** [Employee_Info_AND_Employee_Positions Tables](https://github.com/IsraelAmogo/israelamogo.github.io/blob/main/Employee_Info_AND_Employee_Positions.sql.sql)
+
+**SQL Skills Used:**
+
+1. Data Retrieval (SELECT) – Queried player details by team, position, age, and college.
+2. Data Filtering (WHERE, BETWEEN, LIKE, IS NULL) – Retrieved subsets of players based on conditions such as rookies, missing ages, or specific height/weight ranges.
+3. Data Cleaning (UPDATE, ALTER COLUMN) – Handled invalid values (e.g., replacing N/A in Age column) and enforced correct data types.
+4. Data Aggregation (COUNT, AVG, GROUP BY) – Calculated averages (height, weight), team-wise player counts, and position percentages.
+5. Ranking & Window Functions (RANK, PARTITION BY, OVER) – Ranked players by age and weight within teams, identified tallest/shortest players per position, and compared players against team averages.
+6. Joins & Subqueries – Used subqueries and common table expressions (CTEs) to compare player attributes against team-level statistics.
+7. Sorting (ORDER BY, TOP) – Retrieved top salaries, tallest players, and ordered results by multiple attributes.
+
+**Project Description:**
+
+This project involved analysing the Football Players Dataset in SQL Server to explore player demographics, physical attributes, and team composition. The dataset was imported from Excel and structured to support queries that answer practical sports analytics questions, such as identifying top performers, comparing players across teams, and evaluating positional distributions.
+
+The project demonstrates proficiency in SQL querying, data cleaning, and analytical reporting, with queries designed to:
+
+1. Retrieve players by team, position, or college.
+2. Identify tallest, heaviest, and youngest players.
+3. Calculate averages (height, weight) and compare players against team averages.
+4. Rank players by age and weight within teams.
+5. Analyse rookies and experience-level distributions.
+6. Determine positional percentages across teams.
+7. Clean and standardise data for accurate analysis.
+
+**Table Schema**
+The dbo.Football Players Data$ table includes:
+
+1. Year (float) – Season year.
+2. Team (nvarchar(255)) – Team name.
+3. Name (nvarchar(255)) – Player’s full name.
+4. No# (float) – Jersey number.
+5. Pos (nvarchar(255)) – Playing position (e.g., WR, QB).
+6. Ht (nvarchar(255)) – Height (feet/inches).
+7. Wt (float) – Weight in pounds.
+8. Age (int) – Player’s age.
+9. Exp (nvarchar(255)) – Experience level (e.g., R for rookie).
+10. College (nvarchar(255)) – College attended.
+11. FirstName / LastName (nvarchar(255)) – Player’s name components.
+12. Ft / In / Inches (float) – Height breakdown in feet, inches, and total inches.
+13. NumGrp (nvarchar(255)) – Grouping attribute for jersey numbers.
+
+**Technology used:** 
+
+1. SQL Server Database Engine
+2. Excel (as source data)
+
 
 # Project 3 
 
