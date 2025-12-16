@@ -1,5 +1,125 @@
 # Project 1 
 
+**Title:** [HR Insights Dashboard](https://github.com/IsraelAmogo/israelamogo.github.io/blob/main/HR%20Dashboard%202.pbix)
+
+**Tools Used:** Power BI (data modelling, DAX measures, interactive dashboards) AND Excel (raw HR dataset preparation)
+
+**Project Description:** 
+
+This project involved designing and developing a multi-page HR Analytics Dashboard in Power BI to provide actionable insights into workforce demographics, performance, satisfaction, and career progression. The dashboard was structured with a navigation bar linking the Home, Action, and Detail pages, enabling HR teams to seamlessly move between high-level summaries, problem-focused insights, and detailed trend analysis.
+
+The solution integrates advanced DAX measures and calculated columns to enhance reporting accuracy and deliver deeper insights into attrition, promotions, training participation, and employee satisfaction. The project also incorporate Navigation bar to link up two addtional pages(The Action and Detail page)
+
+**Dashboard Pages & Features**
+
+**Home Page – Full Insights**
+
+1.  Workforce Composition: Total employees (1,470), gender distribution (60% male, 40% female).
+2.  Promotion Eligibility: 72 employees (4.9%) due for promotion.
+3.  Attrition & Retrenchment: 117 employees (8%) flagged for retrenchment, 92% active workforce.
+4.  Job Levels & Service Years: Pyramid structure across job levels; majority mid-career employees with 5–10 years of service.
+5.  Distance from Office: 64% of employees live very far, impacting engagement and retention.
+
+**Action Page – Targeted Insights**
+
+1.  Performance & Satisfaction: Low performance (15.4%), low job satisfaction (31.2%), stagnant careers (25.4%).
+2.  Work-Life Balance: Overtime burden (28.3%) and poor balance (28.8%).
+
+  *Visualisations:*
+
+1.  Job involvement distribution (pie chart).
+2.  Low job satisfaction vs overtime (donut chart).
+3.  Performance by age group and job role (bar charts).
+4.  Low performance by distance & marital status (comparative chart).
+
+  *Purpose:* Helps HR managers identify problem areas and prioritise interventions.
+
+
+**Detail Page – Deep Analysis**
+1.  Attrition by Department: Highlights turnover in Research, Sales, and HR.
+2.  Years at Company vs Job Satisfaction: Line chart showing satisfaction trends over tenure.
+3.  Training vs Performance: Correlation between training frequency and performance rating across departments.
+4.  Promotions & Performance: Analysis of years since last promotion against performance outcomes.
+5.  Income Trends: Monthly income progression over years at the company.
+6.  Interactive Filters: Attrition, promotion status, age category, gender, job role, and department.
+7.  Advanced Measures & Columns: Custom DAX measures created to calculate averages, percentages, and performance ratios; additional columns added to standardise age       categories and promotion status for deeper drill-downs.
+
+**Key findings:**
+1.  Workforce is stable but faces challenges in job satisfaction, career progression, and work-life balance.
+2.  Attrition risk is concentrated in specific departments, requiring targeted retention strategies.
+3.  Training participation directly influences performance ratings, highlighting the need for stronger learning & development programs.
+4.  Promotion delays correlate with declining performance, suggesting career stagnation impacts engagement.
+5.  Income growth aligns with tenure, but satisfaction trends vary, requiring nuanced HR policies.
+
+**Dashboard Overview:**
+![HR_Insight Home Page](HR_Insight.png)
+![HR_Insight Action Page](HR_Insight2.png)
+
+
+# Project 2 
+
+**Title:** [BMW Sales Insights Dashboard](BMW_Sales_Dashboard.pbix)
+
+**Tools Used:** Power BI (data modelling, DAX measures, interactive dashboards) AND Excel (raw BMW Sales dataset preparation)
+
+**Project Description:** 
+
+This project involved building a Sales Insight Dashboard in Power BI to analyse BMW’s global sales performance from 2010 to 2024. The dashboard consolidates sales volume, revenue, regional contributions, engine type performance, and model popularity into an interactive visual format. It enables stakeholders to monitor long-term trends, compare regional growth, and evaluate product strategies across traditional and hybrid/EV engines.
+
+The dashboard was designed with advanced DAX measures and calculated columns to track KPIs such as sales volume, revenue growth, regional percentages, and model-level performance.
+
+**Dashboard Features**
+
+**Top KPIs:**
+
+1. Sales Volume: 253M
+2. Total Revenue: $19.01T
+3. Top Model Performer: 7 Series
+
+**Sales & Revenue Trends (2010–2023):**
+
+1. Line charts showing fluctuations in sales volume and revenue across years.
+2. Highlights peak years (2019, 2022, 2024) and dips (2020, 2023).
+
+**Regional Revenue Contribution(PieCharts):**
+
+1. Balanced distribution across six regions (Africa, Asia, Europe, North America, Middle East, South America).
+2. Each region contributes ~16–17% of total revenue, showing diversified global demand.
+
+ **Revenue by Engine Type-(EV Hybrid, Traditional Engine):**
+ 
+ 1. Comparison of EV/Hybrid vs Traditional engines.
+ 2. EV/Hybrid revenue steadily rising, signalling a shift in consumer preference.
+
+ **Popular Models by Region:**
+ 
+ 1. Europe: i8
+ 2. North America: 7 Series
+ 3. Asia: X1
+ 4. Middle East: 7 Series
+ 5. Africa: 5 Series
+ 6. South America: X6
+  
+ **Regional Growth %:**
+ 
+ 1. Asia leads with 15.9% growth.
+ 2. South America (11%) and Europe (10.7%) show strong momentum.
+ 3. Africa (4.6%) and Middle East (6.9%) reflect slower growth. 
+  
+**Key findings:**
+
+1. Global Stability with Regional Variations: BMW maintains balanced revenue contributions across regions, reducing dependency on a single market.
+2. Model Popularity is Region-Specific: Different models dominate in different regions, guiding tailored marketing and inventory strategies.
+3. EV/Hybrid Growth: Revenue from EV/Hybrid engines shows consistent upward trends, highlighting the importance of electrification.
+4. Revenue & Volume Trends: Peaks in 2019, 2021, and 2023 suggest strong recovery cycles, while dips in 2016 and 2022 highlight market volatility.
+5. Asia as Growth Driver: Asia’s 15.9% growth positions it as the most dynamic market, requiring focused expansion strategies.
+
+**Dashboard Overview:**
+![BMW Sales_Insight](BMW_Sales_Insight.png)
+
+
+# Project 3 
+
 **Title:** [Ecommerce Customer Behaviour Dashboard](https://github.com/IsraelAmogo/israelamogo.github.io/blob/main/ecommerce_customer_behavior_dashboard.xlsx)
 
 **Tools Used:** Microsoft Excel (Slicers, Pivot Chart, Pivot Tables, Piecharts, Area line, Barchars)
@@ -158,125 +278,4 @@ The dbo.Football Players Data$ table includes:
 
 1. SQL Server Database Engine
 2. Excel (as source data)
-
-
-# Project 5 
-
-**Title:** [HR Insights Dashboard](https://github.com/IsraelAmogo/israelamogo.github.io/blob/main/HR%20Dashboard%202.pbix)
-
-**Tools Used:** Power BI (data modelling, DAX measures, interactive dashboards) AND Excel (raw HR dataset preparation)
-
-**Project Description:** 
-
-This project involved designing and developing a multi-page HR Analytics Dashboard in Power BI to provide actionable insights into workforce demographics, performance, satisfaction, and career progression. The dashboard was structured with a navigation bar linking the Home, Action, and Detail pages, enabling HR teams to seamlessly move between high-level summaries, problem-focused insights, and detailed trend analysis.
-
-The solution integrates advanced DAX measures and calculated columns to enhance reporting accuracy and deliver deeper insights into attrition, promotions, training participation, and employee satisfaction.
-
-**Dashboard Pages & Features**
-
-**Home Page – Full Insights**
-
-1.  Workforce Composition: Total employees (1,470), gender distribution (60% male, 40% female).
-2.  Promotion Eligibility: 72 employees (4.9%) due for promotion.
-3.  Attrition & Retrenchment: 117 employees (8%) flagged for retrenchment, 92% active workforce.
-4.  Job Levels & Service Years: Pyramid structure across job levels; majority mid-career employees with 5–10 years of service.
-5.  Distance from Office: 64% of employees live very far, impacting engagement and retention.
-
-**Action Page – Targeted Insights**
-
-1.  Performance & Satisfaction: Low performance (15.4%), low job satisfaction (31.2%), stagnant careers (25.4%).
-2.  Work-Life Balance: Overtime burden (28.3%) and poor balance (28.8%).
-
-  *Visualisations:*
-
-1.  Job involvement distribution (pie chart).
-2.  Low job satisfaction vs overtime (donut chart).
-3.  Performance by age group and job role (bar charts).
-4.  Low performance by distance & marital status (comparative chart).
-
-  *Purpose:* Helps HR managers identify problem areas and prioritise interventions.
-
-
-**Detail Page – Deep Analysis**
-1.  Attrition by Department: Highlights turnover in Research, Sales, and HR.
-2.  Years at Company vs Job Satisfaction: Line chart showing satisfaction trends over tenure.
-3.  Training vs Performance: Correlation between training frequency and performance rating across departments.
-4.  Promotions & Performance: Analysis of years since last promotion against performance outcomes.
-5.  Income Trends: Monthly income progression over years at the company.
-6.  Interactive Filters: Attrition, promotion status, age category, gender, job role, and department.
-7.  Advanced Measures & Columns: Custom DAX measures created to calculate averages, percentages, and performance ratios; additional columns added to standardise age       categories and promotion status for deeper drill-downs.
-
-**Key findings:**
-1.  Workforce is stable but faces challenges in job satisfaction, career progression, and work-life balance.
-2.  Attrition risk is concentrated in specific departments, requiring targeted retention strategies.
-3.  Training participation directly influences performance ratings, highlighting the need for stronger learning & development programs.
-4.  Promotion delays correlate with declining performance, suggesting career stagnation impacts engagement.
-5.  Income growth aligns with tenure, but satisfaction trends vary, requiring nuanced HR policies.
-
-**Dashboard Overview:**
-![HR_Insight Home Page](HR_Insight.png)
-![HR_Insight Action Page](HR_Insight2.png)
-
-# Project 6 
-
-**Title:** [BMW Sales Insights Dashboard](BMW_Sales_Dashboard.pbix)
-
-**Tools Used:** Power BI (data modelling, DAX measures, interactive dashboards) AND Excel (raw BMW Sales dataset preparation)
-
-**Project Description:** 
-
-This project involved building a Sales Insight Dashboard in Power BI to analyse BMW’s global sales performance from 2010 to 2024. The dashboard consolidates sales volume, revenue, regional contributions, engine type performance, and model popularity into an interactive visual format. It enables stakeholders to monitor long-term trends, compare regional growth, and evaluate product strategies across traditional and hybrid/EV engines.
-
-The dashboard was designed with advanced DAX measures and calculated columns to track KPIs such as sales volume, revenue growth, regional percentages, and model-level performance.
-
-**Dashboard Features**
-
-**Top KPIs:**
-
-1. Sales Volume: 253M
-2. Total Revenue: $19.01T
-3. Top Model Performer: 7 Series
-
-**Sales & Revenue Trends (2010–2023):**
-
-1. Line charts showing fluctuations in sales volume and revenue across years.
-2. Highlights peak years (2019, 2022, 2024) and dips (2020, 2023).
-
-**Regional Revenue Contribution(PieCharts):**
-
-1. Balanced distribution across six regions (Africa, Asia, Europe, North America, Middle East, South America).
-2. Each region contributes ~16–17% of total revenue, showing diversified global demand.
-
- **Revenue by Engine Type-(EV Hybrid, Traditional Engine):**
- 
- 1. Comparison of EV/Hybrid vs Traditional engines.
- 2. EV/Hybrid revenue steadily rising, signalling a shift in consumer preference.
-
- **Popular Models by Region:**
- 
- 1. Europe: i8
- 2. North America: 7 Series
- 3. Asia: X1
- 4. Middle East: 7 Series
- 5. Africa: 5 Series
- 6. South America: X6
-  
- **Regional Growth %:**
- 
- 1. Asia leads with 15.9% growth.
- 2. South America (11%) and Europe (10.7%) show strong momentum.
- 3. Africa (4.6%) and Middle East (6.9%) reflect slower growth. 
-  
-**Key findings:**
-
-1. Global Stability with Regional Variations: BMW maintains balanced revenue contributions across regions, reducing dependency on a single market.
-2. Model Popularity is Region-Specific: Different models dominate in different regions, guiding tailored marketing and inventory strategies.
-3. EV/Hybrid Growth: Revenue from EV/Hybrid engines shows consistent upward trends, highlighting the importance of electrification.
-4. Revenue & Volume Trends: Peaks in 2019, 2021, and 2023 suggest strong recovery cycles, while dips in 2016 and 2022 highlight market volatility.
-5. Asia as Growth Driver: Asia’s 15.9% growth positions it as the most dynamic market, requiring focused expansion strategies.
-
-**Dashboard Overview:**
-![BMW Sales_Insight](BMW_Sales_Insight.png)
-
-
 
