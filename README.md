@@ -153,7 +153,7 @@ This dashboard serves as a strategic decision-making tool for the management tea
 
 ![Ecommerce](Ecommerce.png)
 
-# Project 2
+# Project 4
 
 **Title:** Employee_Details Table: Data Manipulation and Interogation
 
@@ -180,7 +180,7 @@ The dbo.Employee_Details table is an excel file and was imported to SQL server. 
 
 **Technology used:** SQL server & Microsoft Excel
 
-# Project 3
+# Project 5
 
 **Title:** Employee Information Database Analysis: Data Manipulation and Interogation
 
@@ -227,7 +227,7 @@ Additional supporting tables such as Employee Position$ was used to store salary
 2. SQL Server Database Engine
 3. Excel (as source data)
 
-# Project 4
+# Project 6
 
 **Title:** Football Players Dataset Analysis: Data Manipulation and Interogation
 
